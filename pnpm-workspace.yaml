@@ -1,0 +1,6 @@
+allowBuilds:
+  workerd: true
+  esbuild: true
+  "@google/genai": false
+  core-js-pure: false
+  protobufjs: false

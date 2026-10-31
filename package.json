@@ -1,0 +1,24 @@
+{
+	"name": "chikitsak",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "cf dev",
+		"scenarios": "node scripts/scenarios.ts",
+		"typecheck": "cf workers types && tsc"
+	},
+	"devDependencies": {
+		"@cloudflare/vite-plugin": "beta",
+		"@tailwindcss/vite": "^4.3.3",
+		"cf": "^1.0.0-beta.12",
+		"tailwindcss": "^4.3.3",
+		"typescript": "^7.0.2",
+		"vite": "^8.3.0"
+	},
+	"dependencies": {
+		"@earendil-works/chord": "^1.4.0",
+		"@earendil-works/pi-ai": "^1.4.0",
+		"@earendil-works/pi-durable": "^1.4.0",
+		"agents": "^0.32.0"
+	}
+}
